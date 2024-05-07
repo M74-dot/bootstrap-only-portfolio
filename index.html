@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manisha's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="px-5 navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Manisha's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="ml-auto navbar-nav">
+                <li class="nav-item">
+                    <a class="text-white nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="text-white nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="text-white nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="text-white nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section id="home" class="text-center bg-primary text-white p-5">
+        <h1 class="display-3">Welcome to my portfolio</h1>
+        <h4 class="fw-light">I showcase my projects and skills here.</h4>
+    </section>
+
+    <section id="about" class="p-5">
+        <h2 class="text-center">About Me</h2>
+        <div class="row justify-content-around mt-5">
+            <img class="col-md-5" src="static\img.jpeg" alt="Manisha's Image" title="My Photo">
+            <p class="col-md-5 ms-md-4">Hello! I'm Manisha Mali, a dedicated and enthusiastic individual with a Bachelor's
+                degree in Computer Science and Engineering, where I achieved a CGPA of 8.8. I'm deeply passionate about
+                web development, particularly in the realm of full-stack development. My expertise lies in HTML, CSS,
+                Bootstrap, and JavaScript, allowing me to craft captivating and user-friendly websites. Additionally, I
+                bring valuable experience from a year-long internship focusing on Snowflake Data Warehouse, where I
+                honed my skills in data management and analysis. With a keen eye for detail and a drive for excellence,
+                I am committed to delivering exceptional results in every project I undertake.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects" class="p-5">
+        <h2 class="text-center">Projects</h2>
+        <div class="row justify-content-around mt-5">
+
+            <div class="col-md-3 card p-0 rounded-4 overlow-hidden">
+                <img src="static\chatbot.jpg" alt="AFrosty Chatbot">
+                <div class="p-3">
+                    <h3>AFrosty Chatbot</h3>
+                    <p>An chatgpt based chatbot to help users get actual data from databases.</p>
+                    <a class="btn btn-primary" href="#">Learn More</a>
+                </div>
+            </div>
+
+            <div class="col-md-3 card p-0 rounded-4 overlow-hidden">
+                <img src="static\yoga.jpg" alt="Online Yoga Trainer">
+                <div class="p-3">
+                    <h3>Online Yoga Trainer</h3>
+                    <p>A website helps users to do exact and accurate yoga aasaans.</p>
+                    <a class="btn btn-primary" href="https://github.com/M74-dot/Online-Yoga-Trainer" target="_blank">Learn More</a>
+                </div>
+            </div>
+            <div class="col-md-3 card p-0 rounded-4 overlow-hidden">
+                <img src="static\toxic.jpg" alt="Toxic Comments Remover">
+                <div class="p-3">
+                    <h3>Toxic Comment Remover</h3>
+                    <p>A website created to identify and delete toxic comments from youtube channel.</p>
+                    <a class="btn btn-primary" href="https://github.com/M74-dot/Toxic_comments_remover" target="_blank">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="p-5">
+        <h2 class="text-center">Contact Me</h2>
+        <div class="row justify-content-center mt-5">
+            <form class="col-6 d-flex flex-column">
+                <label for="name">Name</label>
+                <input class="form-control" type="text" name="name" id="name" required>
+
+                <label class="mt-3" for="email">Email</label>
+                <input class="form-control" type="email" name="email" id="email" required>
+
+                <label class="mt-3" for="msg">Message</label>
+                <textarea class="form-control" name="msg" id="msg" cols="30" rows="10" required></textarea>
+                <a class="btn btn-primary mt-5" href="mailto:githubmanisha123@gmail.com">Submit</a>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center bg-dark text-white pt-3 pb-4">
+        © 2024 My Portfolio. All rights reserved.
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
